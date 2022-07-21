@@ -95,9 +95,9 @@ public class DataImportProcess {
       long count = 0;
       while ((line = bufferedReader.readLine()) != null) {
         count++;
-        if (count > 200) {
+        /*if (count > 200) {
           break;
-        }
+        }*/
         //Split the Line
         final List<String> data = Arrays.asList(line.split("\t"));
 
@@ -223,9 +223,9 @@ public class DataImportProcess {
       long count = 0;
       while ((line = bufferedReader.readLine()) != null) {
         count++;
-        if (count > 2000) {
+        /*if (count > 2000) {
           break;
-        }
+        }*/
 
         //Split the Line
         final List<String> data = Arrays.asList(line.split("\t"));
@@ -345,9 +345,9 @@ public class DataImportProcess {
       long count = 0;
       while ((line = bufferedReader.readLine()) != null) {
         count++;
-        if (count > 300) {
+        /*if (count > 300) {
           break;
-        }
+        }*/
         //Split the Line
         final List<String> data = Arrays.asList(line.split("\t"));
 
